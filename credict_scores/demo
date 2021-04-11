@@ -1,0 +1,29 @@
+from read_data.read_csv import read_data
+import lightgbm as lgb
+from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import train_test_split
+
+path = r"D:\Projects\credict_scores\data\train.csv"
+
+
+if __name__ == "__main__":
+    X, Y = read_data(path)
+
+    print(X)
+    print("+++"*10)
+    print(Y)
+
+    X_train, X_validation, y_train, y_validation = train_test_split(X, Y, test_size=0.1, random_state=21)
+
+    estimator = lgb.LGBMClassifier(learning_rate=0.125, metric='l1',
+                                   n_estimators=20, num_leaves=38)
+
+    param_grid = {
+        'n_estimators': [x for x in range(24, 40, 2)],
+        'learning_rate': [0.10, 0.125, 0.15, 0.175, 0.2]}
+    gridsearch = GridSearchCV(estimator, param_grid)
+
+    gridsearch.fit(X_train, y_train,
+                   eval_set=[(X_validation, y_validation)],
+                   eval_metric=['auc', 'binary_logloss'],
+                   early_stopping_rounds=5)

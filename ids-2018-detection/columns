@@ -1,0 +1,80 @@
+1 Dst Port :  0
+2 Protocol :  0
+3 Timestamp :  14/02/2018 08:31:01
+4 Flow Duration :  112641719
+5 Tot Fwd Pkts :  3
+6 Tot Bwd Pkts :  0
+7 TotLen Fwd Pkts :  0
+8 TotLen Bwd Pkts :  0
+9 Fwd Pkt Len Max :  0
+10 Fwd Pkt Len Min :  0
+11 Fwd Pkt Len Mean :  0.0
+12 Fwd Pkt Len Std :  0.0
+13 Bwd Pkt Len Max :  0
+14 Bwd Pkt Len Min :  0
+15 Bwd Pkt Len Mean :  0.0
+16 Bwd Pkt Len Std :  0.0
+17 Flow Byts/s :  0.0
+18 Flow Pkts/s :  0.0266331163
+19 Flow IAT Mean :  56320859.5
+20 Flow IAT Std :  139.3000358938
+21 Flow IAT Max :  56320958
+22 Flow IAT Min :  56320761
+23 Fwd IAT Tot :  112641719
+24 Fwd IAT Mean :  56320859.5
+25 Fwd IAT Std :  139.3000358938
+26 Fwd IAT Max :  56320958
+27 Fwd IAT Min :  56320761
+28 Bwd IAT Tot :  0
+29 Bwd IAT Mean :  0.0
+30 Bwd IAT Std :  0.0
+31 Bwd IAT Max :  0
+32 Bwd IAT Min :  0
+33 Fwd PSH Flags :  0
+34 Bwd PSH Flags :  0
+35 Fwd URG Flags :  0
+36 Bwd URG Flags :  0
+37 Fwd Header Len :  0
+38 Bwd Header Len :  0
+39 Fwd Pkts/s :  0.0266331163
+40 Bwd Pkts/s :  0.0
+41 Pkt Len Min :  0
+42 Pkt Len Max :  0
+43 Pkt Len Mean :  0.0
+44 Pkt Len Std :  0.0
+45 Pkt Len Var :  0.0
+46 FIN Flag Cnt :  0
+47 SYN Flag Cnt :  0
+48 RST Flag Cnt :  0
+49 PSH Flag Cnt :  0
+50 ACK Flag Cnt :  0
+51 URG Flag Cnt :  0
+52 CWE Flag Count :  0
+53 ECE Flag Cnt :  0
+54 Down/Up Ratio :  0
+55 Pkt Size Avg :  0.0
+56 Fwd Seg Size Avg :  0.0
+57 Bwd Seg Size Avg :  0.0
+58 Fwd Byts/b Avg :  0
+59 Fwd Pkts/b Avg :  0
+60 Fwd Blk Rate Avg :  0
+61 Bwd Byts/b Avg :  0
+62 Bwd Pkts/b Avg :  0
+63 Bwd Blk Rate Avg :  0
+64 Subflow Fwd Pkts :  3
+65 Subflow Fwd Byts :  0
+66 Subflow Bwd Pkts :  0
+67 Subflow Bwd Byts :  0
+68 Init Fwd Win Byts :  -1
+69 Init Bwd Win Byts :  -1
+70 Fwd Act Data Pkts :  0
+71 Fwd Seg Size Min :  0
+72 Active Mean :  0.0
+73 Active Std :  0.0
+74 Active Max :  0
+75 Active Min :  0
+76 Idle Mean :  56320859.5
+77 Idle Std :  139.3000358938
+78 Idle Max :  56320958
+79 Idle Min :  56320761
+80 Label :  Benign
